@@ -15,7 +15,10 @@ def decrypt_rot13(text):
 
 # Ejemplo de uso:
 encrypted_message = str(input("Introduce un mensaje encriptado con ROT13: "))
+encrypted_message = "irsicosmimwyticojikcjrkiwkdoqzhjirzwvjsajplrltundhtllfvwiwysxqxiyyhuvkwnkru"
+encrypted_message = "xbiynnsvhjjtfjjwnzrxvhrdzfzhlsaaesrgstonuvhinoghjkxxziozlwjtvfgqwroiypv"
 decrypted_message = decrypt_rot13(encrypted_message)
 
 print("Mensaje encriptado:", encrypted_message)
 print("Mensaje desencriptado:", decrypted_message)
+
